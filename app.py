@@ -7,4 +7,4 @@ def hello_world():
     return 'Hello Welcome to DevOps World'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
